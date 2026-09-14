@@ -2,6 +2,12 @@
   "name": "@arylo-scripts/tool-gen-storage",
   "version": "1.0.0",
   "description": "Tiny typed storage adapters with optional in-memory caching.",
+  "keywords": [
+    "storage",
+    "cache",
+    "adapter",
+    "typescript"
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -37,8 +43,13 @@
   "bugs": {
     "url": "https://github.com/arylo-scripts/tool-gen-storage/issues"
   },
+  "author": "Arylo Yeung <arylo.open@gmail.com>",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
-    "@arylo-scripts/tsconfig": "github:arylo-scripts/tsconfig#master",
+    "@arylo-scripts/tsconfig": "^1.0.0",
     "concurrently": "^8.2.2",
     "oxfmt": "^0.35.0",
     "oxlint": "^1.58.0",
